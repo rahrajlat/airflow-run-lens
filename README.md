@@ -59,7 +59,11 @@ The page has two core sections:
 
 ```text
 /dags/<dag_id>/plugin/runlens
+
 ```
+
+<img src="media/demopage.png" width="120" />
+
 
 ## Plugin Layout
 
