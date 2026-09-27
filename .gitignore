@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Airflow local runtime state
+airflow_docker/logs/
+airflow_docker/dbt/
+airflow_docker/rover_captures/
+airflow_docker/standalone_admin_password.txt
+airflow_docker/airflow.db
+airflow_docker/webserver_config.py
+
+# Old RunLens build location; current bundle is committed at
+# airflow_docker/plugins/runlens/runlens.js so Airflow can serve it.
+airflow_docker/widgets_ui_dist/
